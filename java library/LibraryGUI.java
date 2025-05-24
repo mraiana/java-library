@@ -25,7 +25,6 @@ public class LibraryGUI extends JFrame implements ActionListener {
     // Карта для хранения годов рождения читателей по их ID
     private Map<Integer, Integer> readerBirthYears = new HashMap<>();
     // Карта для хранения выданных книг и их дат возврата.
-    // Ключ - название книги, значение - объект Date с датой возврата.
     private Map<String, Date> borrowedBooksDueDates = new HashMap<>();
     // Следующий доступный ID для нового читателя
     private int nextReaderId = 1;
